@@ -17,6 +17,7 @@ public class TC002 {
     	 driver.findElement(By.xpath("//span[@role ='button']")).click();
     	 driver.findElement(By.xpath("//span[@class=\"_1sLnDu\"]")).click();
     	 driver.findElement(By.xpath("(//input[@type = 'text'])[2]")).sendKeys("8307746282");
+    	 //driver.findElement(By.xpath("(//button)[2]")).click();
     	 Thread.sleep(150000);
     	 WebElement ele = driver.findElement(By.xpath("//header"));
     	 Utility_Method.captureElementScreenshot(driver,ele ,"./Screenshot/HP_TC002loginNameSS.png");
