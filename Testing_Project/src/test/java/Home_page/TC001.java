@@ -17,7 +17,7 @@ public class TC001 {
     	 driver.findElement(By.xpath("//span[@class=\"_1sLnDu\"]")).click();
     	 driver.findElement(By.xpath("(//input[@type = 'text'])[2]")).sendKeys("8307746282");
     	 //driver.findElement(By.xpath("(//button)[2]")).click();
-    	 Thread.sleep(150000);
+    	 Thread.sleep(200000);
     	 Utility_Method.captureScreenshot(driver, "./Screenshot/loginSS.png");
     }
 }
