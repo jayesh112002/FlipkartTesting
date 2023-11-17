@@ -14,6 +14,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Utility_Method {
+	
+	
 	public static void captureElementScreenshot(WebDriver driver, WebElement element, String filePath)throws IOException {
 
 		TakesScreenshot ts = (TakesScreenshot) driver;
@@ -35,12 +37,12 @@ public class Utility_Method {
 		return prop.getProperty(key);
 	}
 	
-	public static WebDriver openBrowserC() throws InterruptedException {
-	    WebDriver driver = new ChromeDriver();
-	    driver.get("https://www.flipkart.com");
-	    driver.manage().window().maximize();
-	    return driver;
-	}
+//	public static WebDriver openBrowserC() throws InterruptedException {
+//	    WebDriver driver = new ChromeDriver();
+//	    driver.get("https://www.flipkart.com");
+//	    driver.manage().window().maximize();
+//	    return driver;
+//	}
 	
 	public static WebDriver openBrowserF() throws InterruptedException {
 	    WebDriver driver = new FirefoxDriver();
