@@ -22,7 +22,7 @@ public class TC005 {
     	 Thread.sleep(100000);
     	 driver.findElement(By.xpath("//input[@title=\"Search for Products, Brands and More\"]")).click();
     	 Thread.sleep(2000);
-    	 Utility_Method.captureScreenshot(driver,"./Screenshot/HP_TC005LoginDiffBrowserSS.png");
+    	
     }
 }
 

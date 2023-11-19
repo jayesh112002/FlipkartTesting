@@ -16,11 +16,11 @@ public class TC006 extends Base_Test {
 	@Test
 	public void Proper_Allign() throws InterruptedException, IOException {
 
-		driver.get("https://www.flipkart.com");
+		
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//span[@role ='button']")).click();
 		WebElement ele = driver.findElement(By.xpath("//div[@class=\"_3sdu8W emupdz\"]"));
 		Thread.sleep(2000);
-		Utility_Method.captureElementScreenshot(driver, ele, "./Screenshot/HP_TC006Proper_Allign.png");
+		
 	}
 }

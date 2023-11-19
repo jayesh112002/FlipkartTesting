@@ -16,19 +16,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Utility_Method {
 	
 	
-	public static void captureElementScreenshot(WebDriver driver, WebElement element, String filePath)throws IOException {
 
-		TakesScreenshot ts = (TakesScreenshot) driver;
-		File screenshotFile = element.getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(screenshotFile, new File(filePath));
-	}
-
-	public static void captureScreenshot(WebDriver driver, String filePath) throws IOException {
-
-		TakesScreenshot ts = (TakesScreenshot) driver;
-		File screenshotFile = ts.getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(screenshotFile, new File(filePath));
-	}
 
 	public static String getPropertyValue(String key) throws IOException {
 		FileInputStream fis = new FileInputStream("./Testdata/commondata.properties");

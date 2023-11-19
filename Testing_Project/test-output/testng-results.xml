@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-17T11:54:39 IST" name="Default suite" finished-at="2023-11-17T11:56:42 IST" duration-ms="122389">
+  <suite started-at="2023-11-18T23:19:33 IST" name="Default suite" finished-at="2023-11-18T23:19:41 IST" duration-ms="8645">
     <groups>
     </groups>
-    <test started-at="2023-11-17T11:54:39 IST" name="Default test" finished-at="2023-11-17T11:56:42 IST" duration-ms="122389">
-      <class name="Home_page.TC005">
-        <test-method signature="loginDiffBrowser()[pri:0, instance:Home_page.TC005@223191a6]" started-at="2023-11-17T11:54:39 IST" name="loginDiffBrowser" finished-at="2023-11-17T11:56:42 IST" duration-ms="122302" status="PASS">
+    <test started-at="2023-11-18T23:19:33 IST" name="Default test" finished-at="2023-11-18T23:19:41 IST" duration-ms="8645">
+      <class name="Search_Functionality.TC003">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Search_Functionality.TC003@51399530]" started-at="2023-11-18T23:19:33 IST" name="setUp" finished-at="2023-11-18T23:19:37 IST" duration-ms="3872" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginDiffBrowser -->
-      </class> <!-- Home_page.TC005 -->
+        </test-method> <!-- setUp -->
+        <test-method signature="searchApplyFilterAndVerifyResults()[pri:0, instance:Search_Functionality.TC003@51399530]" started-at="2023-11-18T23:19:37 IST" name="searchApplyFilterAndVerifyResults" finished-at="2023-11-18T23:19:41 IST" duration-ms="4573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchApplyFilterAndVerifyResults -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Search_Functionality.TC003@51399530]" started-at="2023-11-18T23:19:41 IST" name="tearDown" finished-at="2023-11-18T23:19:41 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Search_Functionality.TC003 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

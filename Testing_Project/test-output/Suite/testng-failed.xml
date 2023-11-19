@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilityClass.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Search_Functionality.TC003">
+        <methods>
+          <include name="searchApplyFilterAndVerifyResults"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Search_Functionality.TC003 -->
+      <class name="Search_Functionality.TC006">
+        <methods>
+          <include name="searchWithResultPerPage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Search_Functionality.TC006 -->
+      <class name="Search_Functionality.TC005">
+        <methods>
+          <include name="searchWithSortingOptions"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Search_Functionality.TC005 -->
+      <class name="Search_Functionality.TC002">
+        <methods>
+          <include name="setUp"/>
+          <include name="searchAndVerifyResults"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Search_Functionality.TC002 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

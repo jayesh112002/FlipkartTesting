@@ -15,11 +15,11 @@ public class TC004 extends Base_Test {
 	@Test
 	public void SearchBox() throws InterruptedException, IOException {
 
-		driver.get("https://www.flipkart.com");
+		
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//span[@role ='button']")).click();
 		driver.findElement(By.xpath("//input[@title=\"Search for Products, Brands and More\"]")).sendKeys("mobile");
 		Thread.sleep(2000);
-		Utility_Method.captureScreenshot(driver, "./Screenshot/HP_TC004SearchBoxSS.png");
+		
 	}
 }

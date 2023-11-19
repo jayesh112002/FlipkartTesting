@@ -17,7 +17,7 @@ public class TC010 extends Base_Test {
 	@Test
 	public void Product_are_categorised() throws InterruptedException, IOException {
 		
-		driver.get("https://www.flipkart.com");
+		
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//span[@role ='button']")).click();
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -25,6 +25,6 @@ public class TC010 extends Base_Test {
 		js.executeScript("arguments[0].scrollIntoView(true)", ele);
 
 		Thread.sleep(2000);
-		Utility_Method.captureScreenshot(driver, "./Screenshot/HP_TC010Hover_to_categorySS.png");
+		
 	}
 }

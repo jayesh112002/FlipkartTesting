@@ -14,7 +14,7 @@ public class TC009 extends Base_Test {
 
 	@Test
 	public void Redirect_to_profile() throws InterruptedException, IOException {
-		driver.get("https://www.flipkart.com");
+		
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//span[@role ='button']")).click();
 		driver.findElement(By.xpath("(//span)[1]")).click();
@@ -26,6 +26,6 @@ public class TC009 extends Base_Test {
 		driver.findElement(By.xpath("//li[@class=\"AT0fUR\"]")).click();
 
 		Thread.sleep(2000);
-		Utility_Method.captureScreenshot(driver, "./Screenshot/HP_TC009Redirect_to_ProfileSS.png");
+		
 	}
 }

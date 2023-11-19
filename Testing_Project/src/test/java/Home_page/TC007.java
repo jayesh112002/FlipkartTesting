@@ -16,12 +16,11 @@ public class TC007 extends Base_Test {
 	@Test
 	public void Redirect_to_product() throws InterruptedException, IOException {
 
-		driver.get("https://www.flipkart.com");
+		
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//span[@role ='button']")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("(//img[@alt=\"Image\"])[22]")).click();
 		Thread.sleep(10000);
-		Utility_Method.captureScreenshot(driver, "./Screenshot/HP_TC007Redirect_to_ProductSS.png");
 	}
 }
