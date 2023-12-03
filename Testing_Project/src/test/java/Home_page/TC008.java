@@ -22,6 +22,8 @@ public class TC008 extends Base_Test {
 		
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//span[@role ='button']")).click();
+		String text = driver.findElement(By.xpath("(//img[@alt=\"Mobiles\"]/../../..//span)[2]")).getText();
+		System.out.println("TC008--"+text);
 		driver.findElement(By.xpath("//img[@alt=\"Mobiles\"]")).click();
 		Thread.sleep(5000);
 

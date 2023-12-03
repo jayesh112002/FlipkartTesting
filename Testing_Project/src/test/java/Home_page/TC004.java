@@ -18,7 +18,10 @@ public class TC004 extends Base_Test {
 		
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//span[@role ='button']")).click();
-		driver.findElement(By.xpath("//input[@title=\"Search for Products, Brands and More\"]")).sendKeys("mobile");
+		WebElement search = driver.findElement(By.xpath("//input[@title=\"Search for Products, Brands and More\"]"));
+		Boolean check = search.isDisplayed();
+		System.out.println("TC004"+check);
+		search.sendKeys("mobile");
 		Thread.sleep(2000);
 		
 	}

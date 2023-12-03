@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-18T23:19:33 IST" name="Default suite" finished-at="2023-11-18T23:19:41 IST" duration-ms="8645">
+  <suite started-at="2023-12-03T18:46:09 IST" name="Default suite" finished-at="2023-12-03T18:46:30 IST" duration-ms="20836">
     <groups>
     </groups>
-    <test started-at="2023-11-18T23:19:33 IST" name="Default test" finished-at="2023-11-18T23:19:41 IST" duration-ms="8645">
-      <class name="Search_Functionality.TC003">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Search_Functionality.TC003@51399530]" started-at="2023-11-18T23:19:33 IST" name="setUp" finished-at="2023-11-18T23:19:37 IST" duration-ms="3872" status="PASS">
+    <test started-at="2023-12-03T18:46:09 IST" name="Default test" finished-at="2023-12-03T18:46:30 IST" duration-ms="20836">
+      <class name="Home_page.TC010">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Home_page.TC010@34a3d150]" started-at="2023-12-03T18:46:09 IST" name="setUp" finished-at="2023-12-03T18:46:22 IST" duration-ms="13286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchApplyFilterAndVerifyResults()[pri:0, instance:Search_Functionality.TC003@51399530]" started-at="2023-11-18T23:19:37 IST" name="searchApplyFilterAndVerifyResults" finished-at="2023-11-18T23:19:41 IST" duration-ms="4573" status="PASS">
+        <test-method signature="Product_are_categorised()[pri:0, instance:Home_page.TC010@34a3d150]" started-at="2023-12-03T18:46:22 IST" name="Product_are_categorised" finished-at="2023-12-03T18:46:28 IST" duration-ms="6081" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchApplyFilterAndVerifyResults -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Search_Functionality.TC003@51399530]" started-at="2023-11-18T23:19:41 IST" name="tearDown" finished-at="2023-11-18T23:19:41 IST" duration-ms="159" status="PASS">
+        </test-method> <!-- Product_are_categorised -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Home_page.TC010@34a3d150]" started-at="2023-12-03T18:46:28 IST" name="tearDown" finished-at="2023-12-03T18:46:30 IST" duration-ms="1344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Search_Functionality.TC003 -->
+      </class> <!-- Home_page.TC010 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

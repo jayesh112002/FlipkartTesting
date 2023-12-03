@@ -20,7 +20,11 @@ public class TC007 extends Base_Test {
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//span[@role ='button']")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("(//img[@alt=\"Image\"])[22]")).click();
+		WebElement ele = driver.findElement(By.xpath("(//img[@alt=\"Image\"])[22]"));
+		WebElement ele2 = driver.findElement(By.xpath("(//img[@alt=\"Image\"])[22]/../..//div[@class=\"_58bkzq62 _3n8fnaug _3n8fnamv _3n8fnaf9 _3n8fna1 _3n8fna7n _58bkzq2 _1i2djtb9 _1i2djt0\"]"));
+		String text = ele2.getText();
+		System.out.println("TC007--"+text);
+		ele.click();
 		Thread.sleep(10000);
 	}
 }

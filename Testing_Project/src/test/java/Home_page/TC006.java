@@ -19,7 +19,7 @@ public class TC006 extends Base_Test {
 		
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//span[@role ='button']")).click();
-		WebElement ele = driver.findElement(By.xpath("//div[@class=\"_3sdu8W emupdz\"]"));
+		takeScreenshot();
 		Thread.sleep(2000);
 		
 	}

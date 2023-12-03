@@ -21,7 +21,7 @@ public class TC010 extends Base_Test {
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//span[@role ='button']")).click();
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		WebElement ele = driver.findElement(By.xpath("//div[contains(text(), 'Best of Electronics')]"));
+		WebElement ele = driver.findElement(By.xpath("(//div[contains(text(), 'Best')])[1]"));
 		js.executeScript("arguments[0].scrollIntoView(true)", ele);
 
 		Thread.sleep(2000);
