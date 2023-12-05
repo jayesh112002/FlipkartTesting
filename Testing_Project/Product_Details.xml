@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Product_Details">
+	<listeners>
+		<listener class-name="utilityClass.ListenerClass"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			
+			<class name="product_Details.TC001" />
+			<class name="product_Details.TC002" />
+			<class name="product_Details.TC003" />
+			<class name="product_Details.TC004" />
+			<class name="product_Details.TC006" />
+			<class name="product_Details.TC007" />
+			<class name="product_Details.TC008" />
+			<class name="product_Details.TC009" />
+			<class name="product_Details.TC010" />
+			<class name="product_Details.TC005" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Product_Details -->

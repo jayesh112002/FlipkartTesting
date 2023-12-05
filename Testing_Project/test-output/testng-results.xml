@@ -1,25 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-03T18:46:09 IST" name="Default suite" finished-at="2023-12-03T18:46:30 IST" duration-ms="20836">
+  <suite started-at="2023-12-05T14:01:34 IST" name="Product_Details" finished-at="2023-12-05T14:06:51 IST" duration-ms="317503">
     <groups>
     </groups>
-    <test started-at="2023-12-03T18:46:09 IST" name="Default test" finished-at="2023-12-03T18:46:30 IST" duration-ms="20836">
-      <class name="Home_page.TC010">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Home_page.TC010@34a3d150]" started-at="2023-12-03T18:46:09 IST" name="setUp" finished-at="2023-12-03T18:46:22 IST" duration-ms="13286" status="PASS">
+    <test started-at="2023-12-05T14:01:34 IST" name="Test" finished-at="2023-12-05T14:06:51 IST" duration-ms="317503">
+      <class name="product_Details.TC001">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:product_Details.TC001@5656be13]" started-at="2023-12-05T14:01:34 IST" name="setUp" finished-at="2023-12-05T14:01:46 IST" duration-ms="12649" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Product_are_categorised()[pri:0, instance:Home_page.TC010@34a3d150]" started-at="2023-12-03T18:46:22 IST" name="Product_are_categorised" finished-at="2023-12-03T18:46:28 IST" duration-ms="6081" status="PASS">
+        <test-method signature="verify_Image()[pri:0, instance:product_Details.TC001@5656be13]" started-at="2023-12-05T14:01:47 IST" name="verify_Image" finished-at="2023-12-05T14:02:10 IST" duration-ms="23306" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Product_are_categorised -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Home_page.TC010@34a3d150]" started-at="2023-12-03T18:46:28 IST" name="tearDown" finished-at="2023-12-03T18:46:30 IST" duration-ms="1344" status="PASS">
+        </test-method> <!-- verify_Image -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:product_Details.TC001@5656be13]" started-at="2023-12-05T14:02:10 IST" name="tearDown" finished-at="2023-12-05T14:02:11 IST" duration-ms="895" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Home_page.TC010 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- product_Details.TC001 -->
+      <class name="product_Details.TC002">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:product_Details.TC002@36ebc363]" started-at="2023-12-05T14:02:11 IST" name="setUp" finished-at="2023-12-05T14:02:22 IST" duration-ms="10943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testProductPriceDisplayed()[pri:0, instance:product_Details.TC002@36ebc363]" started-at="2023-12-05T14:02:22 IST" name="testProductPriceDisplayed" finished-at="2023-12-05T14:02:32 IST" duration-ms="10725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductPriceDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:product_Details.TC002@36ebc363]" started-at="2023-12-05T14:02:32 IST" name="tearDown" finished-at="2023-12-05T14:02:33 IST" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- product_Details.TC002 -->
+      <class name="product_Details.TC010">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:product_Details.TC010@702657cc]" started-at="2023-12-05T14:05:47 IST" name="setUp" finished-at="2023-12-05T14:05:57 IST" duration-ms="9947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testProductSuggestionDisplayed()[pri:0, instance:product_Details.TC010@702657cc]" started-at="2023-12-05T14:05:57 IST" name="testProductSuggestionDisplayed" finished-at="2023-12-05T14:06:20 IST" duration-ms="23559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSuggestionDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:product_Details.TC010@702657cc]" started-at="2023-12-05T14:06:20 IST" name="tearDown" finished-at="2023-12-05T14:06:21 IST" duration-ms="885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- product_Details.TC010 -->
+      <class name="product_Details.TC005">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:product_Details.TC005@6a6cb05c]" started-at="2023-12-05T14:06:21 IST" name="setUp" finished-at="2023-12-05T14:06:27 IST" duration-ms="6023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testProductInStockDisplayed()[pri:0, instance:product_Details.TC005@6a6cb05c]" started-at="2023-12-05T14:06:27 IST" name="testProductInStockDisplayed" finished-at="2023-12-05T14:06:50 IST" duration-ms="23246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductInStockDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:product_Details.TC005@6a6cb05c]" started-at="2023-12-05T14:06:50 IST" name="tearDown" finished-at="2023-12-05T14:06:51 IST" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- product_Details.TC005 -->
+      <class name="product_Details.TC006">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:product_Details.TC006@3c41ed1d]" started-at="2023-12-05T14:03:32 IST" name="setUp" finished-at="2023-12-05T14:03:42 IST" duration-ms="10251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSellerRatingDisplayed()[pri:0, instance:product_Details.TC006@3c41ed1d]" started-at="2023-12-05T14:03:42 IST" name="testSellerRatingDisplayed" finished-at="2023-12-05T14:04:07 IST" duration-ms="24389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSellerRatingDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:product_Details.TC006@3c41ed1d]" started-at="2023-12-05T14:04:07 IST" name="tearDown" finished-at="2023-12-05T14:04:08 IST" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- product_Details.TC006 -->
+      <class name="product_Details.TC003">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:product_Details.TC003@45752059]" started-at="2023-12-05T14:02:33 IST" name="setUp" finished-at="2023-12-05T14:02:43 IST" duration-ms="10237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testProductReviewDisplayed()[pri:0, instance:product_Details.TC003@45752059]" started-at="2023-12-05T14:02:43 IST" name="testProductReviewDisplayed" finished-at="2023-12-05T14:03:00 IST" duration-ms="16737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductReviewDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:product_Details.TC003@45752059]" started-at="2023-12-05T14:03:00 IST" name="tearDown" finished-at="2023-12-05T14:03:01 IST" duration-ms="965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- product_Details.TC003 -->
+      <class name="product_Details.TC004">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:product_Details.TC004@34e9fd99]" started-at="2023-12-05T14:03:01 IST" name="setUp" finished-at="2023-12-05T14:03:13 IST" duration-ms="11956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testProductSpecificationDisplayed()[pri:0, instance:product_Details.TC004@34e9fd99]" started-at="2023-12-05T14:03:13 IST" name="testProductSpecificationDisplayed" finished-at="2023-12-05T14:03:31 IST" duration-ms="18241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSpecificationDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:product_Details.TC004@34e9fd99]" started-at="2023-12-05T14:03:31 IST" name="tearDown" finished-at="2023-12-05T14:03:32 IST" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- product_Details.TC004 -->
+      <class name="product_Details.TC009">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:product_Details.TC009@43bc63a3]" started-at="2023-12-05T14:05:13 IST" name="setUp" finished-at="2023-12-05T14:05:22 IST" duration-ms="8916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPaymentOptionsDisplayed()[pri:0, instance:product_Details.TC009@43bc63a3]" started-at="2023-12-05T14:05:22 IST" name="testPaymentOptionsDisplayed" finished-at="2023-12-05T14:05:46 IST" duration-ms="24023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPaymentOptionsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:product_Details.TC009@43bc63a3]" started-at="2023-12-05T14:05:46 IST" name="tearDown" finished-at="2023-12-05T14:05:47 IST" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- product_Details.TC009 -->
+      <class name="product_Details.TC007">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:product_Details.TC007@54d9d12d]" started-at="2023-12-05T14:04:08 IST" name="setUp" finished-at="2023-12-05T14:04:21 IST" duration-ms="13110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testProductVariationDisplayed()[pri:0, instance:product_Details.TC007@54d9d12d]" started-at="2023-12-05T14:04:21 IST" name="testProductVariationDisplayed" finished-at="2023-12-05T14:04:33 IST" duration-ms="11588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductVariationDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:product_Details.TC007@54d9d12d]" started-at="2023-12-05T14:04:33 IST" name="tearDown" finished-at="2023-12-05T14:04:33 IST" duration-ms="810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- product_Details.TC007 -->
+      <class name="product_Details.TC008">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:product_Details.TC008@38425407]" started-at="2023-12-05T14:04:33 IST" name="setUp" finished-at="2023-12-05T14:04:37 IST" duration-ms="3386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeliveryInfoDisplayed()[pri:0, instance:product_Details.TC008@38425407]" started-at="2023-12-05T14:04:37 IST" name="testDeliveryInfoDisplayed" finished-at="2023-12-05T14:05:12 IST" duration-ms="35128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeliveryInfoDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:product_Details.TC008@38425407]" started-at="2023-12-05T14:05:12 IST" name="tearDown" finished-at="2023-12-05T14:05:13 IST" duration-ms="874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- product_Details.TC008 -->
+    </test> <!-- Test -->
+  </suite> <!-- Product_Details -->
 </testng-results>

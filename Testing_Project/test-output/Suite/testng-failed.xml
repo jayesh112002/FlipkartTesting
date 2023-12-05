@@ -6,27 +6,6 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Search_Functionality.TC003">
-        <methods>
-          <include name="searchApplyFilterAndVerifyResults"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Search_Functionality.TC003 -->
-      <class name="Search_Functionality.TC006">
-        <methods>
-          <include name="searchWithResultPerPage"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Search_Functionality.TC006 -->
-      <class name="Search_Functionality.TC005">
-        <methods>
-          <include name="searchWithSortingOptions"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Search_Functionality.TC005 -->
       <class name="Search_Functionality.TC002">
         <methods>
           <include name="setUp"/>
@@ -34,6 +13,48 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- Search_Functionality.TC002 -->
+      <class name="Search_Functionality.TC005">
+        <methods>
+          <include name="searchWithSortingOptions"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Search_Functionality.TC005 -->
+      <class name="Search_Functionality.TC003">
+        <methods>
+          <include name="searchApplyFilterAndVerifyResults"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Search_Functionality.TC003 -->
+      <class name="Search_Functionality.TC004">
+        <methods>
+          <include name="setUp"/>
+          <include name="searchBasedOnCriteria"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Search_Functionality.TC004 -->
+      <class name="Search_Functionality.TC006">
+        <methods>
+          <include name="searchWithResultPerPage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Search_Functionality.TC006 -->
+      <class name="Search_Functionality.TC007">
+        <methods>
+          <include name="searchInDifferentCategories"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Search_Functionality.TC007 -->
+      <class name="Search_Functionality.TC001">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- Search_Functionality.TC001 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

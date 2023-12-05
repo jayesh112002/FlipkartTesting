@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Product_Details]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilityClass.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Home_page.TC010">
+      <class name="product_Details.TC001">
         <methods>
+          <include name="verify_Image"/>
           <include name="setUp"/>
-          <include name="Product_are_categorised"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- Home_page.TC010 -->
+      </class> <!-- product_Details.TC001 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Product_Details] -->
